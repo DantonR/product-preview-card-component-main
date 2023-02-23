@@ -1,0 +1,79 @@
+html,
+body {
+  box-sizing: border-box;
+
+  font-family: "Montserrat";
+  height: 100%;
+  width: 100%;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  margin: 0;
+}
+
+.product-preview__hero-img {
+  width: 100%;
+  height: ;
+  background-image: url(/images/image-product-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overline {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.product-preview {
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+h1 {
+  margin-top: 8px;
+  font-family: "Fraunces";
+  font-size: 32px;
+}
+
+.product-preview__description {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: hsl(158, 36%, 37%);
+}
+
+.product-preview__price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.green {
+  color: hsl(158, 36%, 37%);
+}
