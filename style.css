@@ -26,9 +26,9 @@ body {
 
 .product-preview__hero-img {
   width: 100%;
-  background-image: url(/images/image-product-mobile.jpg);
+  /* background-image: url(/images/image-product-mobile.jpg); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-radius: 16px 16px 0 0;
 }
 
@@ -90,4 +90,21 @@ h1 {
 
 .green {
   color: hsl(158, 36%, 37%);
+}
+
+@media only screen and (min-width: 760px) {
+  .product-preview {
+    max-width: 640px;
+    flex-direction: row;
+  }
+  .product-preview__body {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product-preview__hero-img {
+    max-width: 50%;
+    border-radius: 16px 0 0 16px;
+  }
 }
